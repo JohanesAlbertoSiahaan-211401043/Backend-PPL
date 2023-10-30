@@ -1,0 +1,26 @@
+
+POST http://localhost:3000/add-patient
+Content-Type: application/json
+
+{
+    "name":"abby",
+    "email":"mantapmantap@gmail.com",
+    "phone":"o84238523",
+    "admission_date":"12-10-2018"
+}
+
+### get all patients
+GET http://localhost:3000/patients
+
+### add patient
+POST http://localhost:3000/add-patient
+Content-Type: application/json
+
+
+{
+    "name":"abby",
+    "email":"mantapmantap@gmail.com",
+    "phone":"o84238523",
+    "enroll_number":"fpaowienfowienf",
+    "admission_date":"12-10-2018"
+}
