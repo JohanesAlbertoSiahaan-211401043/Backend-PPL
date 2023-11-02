@@ -1,0 +1,30 @@
+GET http://localhost:3000/users
+
+###
+GET http://localhost:3000/users/6535d364c71cdb9b644fdcf2
+
+###
+POST http://localhost:3000/users 
+Content-Type: application/json
+
+{
+    "name": "Nardo",
+    "password": "123",
+    "gender": "male",
+    "role": "boss"
+}
+
+###
+PATCH http://localhost:3000/users/6535d364c71cdb9b644fdcf2
+Content-Type: application/json
+
+{
+    "_id": "6535d364c71cdb9b644fdcf2",
+    "name": "Johanes",
+    "password": "123",
+    "role": "boss",
+    "_v": 0
+}
+
+###
+DELETE http://localhost:3000/users/6535d3f21aa96683bad68066
